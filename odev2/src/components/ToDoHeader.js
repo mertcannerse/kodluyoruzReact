@@ -6,7 +6,7 @@ function ToDoHeader({ setTodoData, todoData }) {
 
     let newItem = e.target[0].value;
 
-    if (newItem == "") {
+    if (newItem === "") {
       return false;
     }
 
